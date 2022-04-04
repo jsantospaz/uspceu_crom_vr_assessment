@@ -1,7 +1,3 @@
-clear
-close all
-clc
-%%
 
 SBJ = 124;
 Freq = 90;
@@ -80,24 +76,6 @@ end
 [~,n]=size(Subject);
 
 if n > 12
-%     Subject.X = num2str(Subject.X);
-%     Subject.Y = num2str(Subject.Y);
-%     Subject.Z = num2str(Subject.Z);
-%     Subject.qW = num2str(Subject.qW);
-%     Subject.qX = num2str(Subject.qX);
-%     Subject.qY = num2str(Subject.qY);
-%     Subject.qZ = num2str(Subject.qZ);
-%     Subject.aX = num2str(Subject.aX);
-%     Subject.aY = num2str(Subject.aY);
-%     Subject.aZ = num2str(Subject.aZ);
-%     
-%     Subject.X = strcat(Subject.X,'.',Subject.Y);
-%     Subject.Y = strcat(Subject.Z,'.',Subject.qW);
-%     Subject.Z = strcat(Subject.qX,'.',Subject.qY);
-%     Subject.qW = strcat(Subject.qZ,'.',Subject.aX);
-%     Subject.qX = strcat(Subject.aY,'.',Subject.aZ);
-%     Subject.qY = strcat(Subject.ExtraVar1,'.',Subject.ExtraVar2);
-%     Subject.qZ = strcat(Subject.ExtraVar3,'.',Subject.ExtraVar4);
     Subject.aX = strcat(Subject.ExtraVar5,'.',Subject.ExtraVar6);
     Subject.aY = strcat(Subject.ExtraVar7,'.',Subject.ExtraVar8);
     Subject.aZ = strcat(Subject.ExtraVar9,'.',Subject.ExtraVar10);
